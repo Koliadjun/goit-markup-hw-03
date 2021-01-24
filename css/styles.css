@@ -10,7 +10,7 @@
   --dark-background-text-color: #ffffff;
   --gatter-size: 15px;
   --double-gatter-size: 30px;
-  /* --button-background-color: #2196F3; */
+  --section-padding: 94px;
   --button-background-color-active: #188ce8;
   --collum-number: 3;
 }
@@ -54,7 +54,7 @@ p {
   display: flex;
 }
 .section {
-  padding: 94px 0;
+  padding: var(--section-padding) 0;
 }
 .conteiner {
   width: 1200px;
@@ -320,8 +320,6 @@ p {
 .examples-list-text {
   font-size: 16px;
   line-height: 1.87;
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
