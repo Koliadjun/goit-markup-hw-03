@@ -276,6 +276,7 @@ p {
   background: #f5f4fa;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 .examples-filter-button:hover,
 .examples-filter-button:focus,
