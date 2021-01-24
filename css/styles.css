@@ -258,15 +258,15 @@ p {
 
 /* ===== Portfolio.html styles ===== */
 
-/* == Exemples section ==*/
-.exemples-filter {
+/* == examples section ==*/
+.examples-filter {
   margin-bottom: 50px;
   justify-content: center;
 }
-.exemples-filter-item:not(:last-child) {
+.examples-filter-item:not(:last-child) {
   margin-right: 8px;
 }
-.exemples-filter-button {
+.examples-filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -277,34 +277,34 @@ p {
   border-radius: 4px;
   border: none;
 }
-.exemples-filter-button:hover,
-.exemples-filter-button:focus,
-.exemples-filter-button.active {
+.examples-filter-button:hover,
+.examples-filter-button:focus,
+.examples-filter-button.active {
   background: var(--active-link-color);
   color: #ffffff;
 }
-.exemples-list {
+.examples-list {
   flex-wrap: wrap;
 }
-.exemples-list-item {
+.examples-list-item {
   width: calc(
     (100% - (30px * (var(--collum-number) - 1))) / var(--collum-number)
   );
 }
-.exemples-list-item:not(:nth-child(3n + 3)) {
+.examples-list-item:not(:nth-child(3n + 3)) {
   margin-right: var(--double-gatter-size);
 }
-.exemples-list-image {
+.examples-list-image {
   width: 100%;
 }
 
-.exemples-list-item:not(:nth-last-child(-n + 3)) {
+.examples-list-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: var(--double-gatter-size);
 }
-.exemples-list-text-conteiner {
+.examples-list-text-conteiner {
   padding: 20px 24px;
 }
-.exemples-list-title {
+.examples-list-title {
   margin-bottom: 4px;
   font-family: Roboto;
   font-style: normal;
@@ -315,7 +315,7 @@ p {
 
   letter-spacing: 0.06em;
 }
-.exemples-list-text {
+.examples-list-text {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 187% */
