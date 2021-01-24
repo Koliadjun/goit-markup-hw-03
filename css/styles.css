@@ -290,7 +290,6 @@ p {
   width: calc(
     (100% - (30px * (var(--collum-number) - 1))) / var(--collum-number)
   );
-  border: 1px solid #eeeeee;
 }
 .examples-list-item:not(:nth-child(3n + 3)) {
   margin-right: var(--double-gatter-size);
@@ -305,22 +304,22 @@ p {
 
 .examples-list-text-conteiner {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 .examples-list-title {
   margin-bottom: 4px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
 }
 .examples-list-text {
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
 
   letter-spacing: 0.03em;
 
