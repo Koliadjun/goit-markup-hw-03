@@ -290,17 +290,19 @@ p {
   width: calc(
     (100% - (30px * (var(--collum-number) - 1))) / var(--collum-number)
   );
+  border: 1px solid #eeeeee;
 }
 .examples-list-item:not(:nth-child(3n + 3)) {
   margin-right: var(--double-gatter-size);
-}
-.examples-list-image {
-  width: 100%;
 }
 
 .examples-list-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: var(--double-gatter-size);
 }
+.examples-list-image {
+  width: 100%;
+}
+
 .examples-list-text-conteiner {
   padding: 20px 24px;
 }
